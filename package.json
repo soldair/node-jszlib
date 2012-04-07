@@ -1,0 +1,28 @@
+{
+  "name": "jszlib",
+  "description": "deflate implemented in pure js.",
+  "version": "0.0.1",
+  "author": "Ryan Day <soldair@gmail.com>",
+  "keywords": [
+    "js",
+    "inflate",
+    "adler32",
+    "sync"
+  ],
+  "main": "./zlib.js",
+  "homepage": "http://github.com/soldair/node-jszlib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/soldair/node-jszlib.git"
+  },
+  "scripts": {
+    "test": "./test.sh"
+  },
+  "devDependencies": {
+    "tap": "*",
+    "jshint": "0.5.x"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  }
+}
