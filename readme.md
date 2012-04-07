@@ -14,7 +14,7 @@ watcher = jszlib.deflate('aaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbb',fun
 });
 
 ```
-
+ 
 ## install
 
 	npm install jszlib
@@ -26,22 +26,10 @@ jszlib.deflate(buffer, [options], callback)
 jszlib.deflateSync(buffer, [options]);
 
 - buffer
-  - this is a 
+  - this can be a String or node Buffer object. 
 
-- options. supported custom options are
-
-	```js
-	{
-
-	"offset":0,
-	//optional.  offset is negtively applied to the start position
-
-	"delimiter":"\n"
-	//optional. defaults to newline but can be anything
-
-	}
-
-	```
+- options. 
+  - right now no options need to be passed in from the outside.
 
 - callback
   - for non sync the buffer is passed as the data argument to the callback.
