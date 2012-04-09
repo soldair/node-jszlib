@@ -9,7 +9,7 @@ This provides an all js version of deflate. The goal is to provide a similar api
 ```js
 
 var jszlib = require('jszlib'),
-watcher = jszlib.deflate('aaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbb',function(error,buffer){
+jszlib.deflate('aaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbb',function(error,buffer){
   console.log(Buffer.toString('base64'));
 });
 
@@ -39,6 +39,6 @@ jszlib.deflateSync(buffer, [options]);
 	```
 # thanks
 
-most of the code is by imaya https://github.com/imaya/CanvasTool.PngEncoder who wrote a cool js png encoder. Thanks!! 
+most of the code is by imaya https://github.com/imaya/CanvasTool.PngEncoder who wrote a really cool js png encoder. Thanks!! 
 I ported this to node requires and updated the interface to be more nodey.
 
